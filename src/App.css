@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+hr{
+  color: azure;
+  width: 70%;
+  height: 20px;
+  border-radius: 20px;
+}

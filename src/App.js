@@ -6,23 +6,38 @@ class App extends Component{
   constructor(props) {
     super(props)
   
-    this.state = {
-       string: 'Hello world 2'
+    this.state ={
+      monsters: [
+        {
+          name: 'Frank',
+          id: '1'
+        },
+        {
+          name: 'Dracula',
+          id: '2'
+        },
+        {
+          name: 'Zombie',
+          id: '3'
+        },
+      ]
+      
     }
+  
   }
   
-
-
+  
   render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Trying react stat</h1>
-        <p>{this.state.string}</p>
-        
-      </header>
-    </div>
+      {this.state.monsters.map(monsters=>(
+        <h1 key={monsters.id}> {monsters.name}</h1>
+      ))}
+
+
+    </div> 
+  
+
   );
 }
 }
