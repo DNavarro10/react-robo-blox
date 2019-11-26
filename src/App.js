@@ -23,11 +23,11 @@ class App extends Component{
   return (
     <div className="App">
       <CardList name="Usando el props">
-      <h1>Children Diego</h1>
-      </CardList>
       {this.state.monsters.map(monsters=>(
         <h1 key={monsters.id}> {monsters.name}</h1>
       ))}
+      </CardList>
+      
 
 
     </div> 
