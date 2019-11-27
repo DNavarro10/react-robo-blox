@@ -3,11 +3,10 @@ import React, {Component} from 'react';
 import { CardList} from './components/card-list/card-list.component';
 
 import './App.css';
-import { from } from 'rxjs';
 
 class App extends Component{
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
   
     this.state = { 
       monsters: []
@@ -20,17 +19,10 @@ class App extends Component{
     }
 
   render(){
-  return (
-    <div className="App">
-      <CardList name="Usando el props">
-      {this.state.monsters.map(monsters=>(
-        <h1 key={monsters.id}> {monsters.name}</h1>
-      ))}
-      </CardList>
-      
-
-
-    </div> 
+    return (
+      <div className="App">
+        <CardList monsters={this.state.monsters} />
+      </div> 
   
 
   );
