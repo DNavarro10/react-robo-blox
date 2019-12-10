@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-robo-blox/static/css/main.d2c112da.chunk.css",
+    "main.js": "/react-robo-blox/static/js/main.5fb3ad86.chunk.js",
+    "main.js.map": "/react-robo-blox/static/js/main.5fb3ad86.chunk.js.map",
+    "runtime-main.js": "/react-robo-blox/static/js/runtime-main.95395b3f.js",
+    "runtime-main.js.map": "/react-robo-blox/static/js/runtime-main.95395b3f.js.map",
+    "static/js/2.69aaf1ce.chunk.js": "/react-robo-blox/static/js/2.69aaf1ce.chunk.js",
+    "static/js/2.69aaf1ce.chunk.js.map": "/react-robo-blox/static/js/2.69aaf1ce.chunk.js.map",
+    "index.html": "/react-robo-blox/index.html",
+    "precache-manifest.a25f69c82f092b1df538951fb36f8219.js": "/react-robo-blox/precache-manifest.a25f69c82f092b1df538951fb36f8219.js",
+    "service-worker.js": "/react-robo-blox/service-worker.js",
+    "static/css/main.d2c112da.chunk.css.map": "/react-robo-blox/static/css/main.d2c112da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95395b3f.js",
+    "static/js/2.69aaf1ce.chunk.js",
+    "static/css/main.d2c112da.chunk.css",
+    "static/js/main.5fb3ad86.chunk.js"
+  ]
+}
